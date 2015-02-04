@@ -15,10 +15,14 @@ public class Ship : MonoBehaviour {
 	float spin;
 	float gas;
 
+	public Transform model;
+	private Vector3 baseRotation;
+
 	// Use this for initialization
 	void Start () {
 		velocity = new Vector3();
 		angularVelocity = new Quaternion();
+		baseRotation = model.transform.localRotation.eulerAngles;
 	}
 	
 	// Update is called once per frame
@@ -39,5 +43,7 @@ public class Ship : MonoBehaviour {
 		float v = vertical * turnSpeed * Time.fixedDeltaTime;
 		float s = spin * turnSpeed * Time.fixedDeltaTime;
 		transform.Rotate(v,h,s,Space.Self);
+		model.localRotation = Quaternion.Euler(
+			baseRotation + new Vector3(vertical * 10, horizontal * 10,spin * 10));
 	}
 }
