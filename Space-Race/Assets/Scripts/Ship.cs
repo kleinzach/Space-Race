@@ -18,6 +18,8 @@ public class Ship : MonoBehaviour {
 	public Transform model;
 	private Vector3 baseRotation;
 
+	public ParticleSystem particles;
+
 	// Use this for initialization
 	void Start () {
 		velocity = new Vector3();
@@ -37,6 +39,7 @@ public class Ship : MonoBehaviour {
 
 	void FixedUpdate(){
 		velocity += gas * Time.fixedDeltaTime * transform.forward * speed;
+		particles.Emit ((int)(gas*5));
 		rigidbody.velocity = velocity;
 
 		float h = horizontal * turnSpeed * Time.fixedDeltaTime;
