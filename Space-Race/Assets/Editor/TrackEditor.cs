@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEditor;
+using UnityEditorInternal;
 
 [CustomEditor(typeof(Track))]
 public class TrackEditor : Editor {
