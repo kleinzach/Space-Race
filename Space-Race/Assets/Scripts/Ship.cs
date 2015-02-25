@@ -24,7 +24,7 @@ public class Ship : MonoBehaviour {
 	void Start () {
 		velocity = new Vector3();
 		angularVelocity = new Quaternion();
-		baseRotation = model.transform.localRotation.eulerAngles;
+		//baseRotation = model.transform.localRotation.eulerAngles;
 	}
 	
 	// Update is called once per frame
@@ -33,20 +33,18 @@ public class Ship : MonoBehaviour {
 		vertical = Input.GetAxis("Vertical");
 		spin = Input.GetAxis("Spin");
 		gas = Input.GetAxis("Gas");
-
-		angularVelocity = new Quaternion();
 	}
 
 	void FixedUpdate(){
 		velocity += gas * Time.fixedDeltaTime * transform.forward * speed;
-		particles.Emit ((int)(gas*5));
+		//particles.Emit ((int)(gas*5));
 		rigidbody.velocity = velocity;
 
 		float h = horizontal * turnSpeed * Time.fixedDeltaTime;
 		float v = vertical * turnSpeed * Time.fixedDeltaTime;
 		float s = spin * turnSpeed * Time.fixedDeltaTime;
 		transform.Rotate(v,h,s,Space.Self);
-		model.localRotation = Quaternion.Euler(
-			baseRotation + new Vector3(vertical * 10, horizontal * 10,spin * 10));
+		//model.localRotation = Quaternion.Euler(
+			//baseRotation + new Vector3(vertical * 10, horizontal * 10,spin * 10));
 	}
 }
