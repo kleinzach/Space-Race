@@ -17,9 +17,9 @@ public class MeshModifier : MonoBehaviour {
 
 	void Start() {
 		Debug.Log ("Start");
-		for(int i = 0; i< 50; i++){
+		for(int i = 0; i< 20; i++){
 			
-			heighten(vertices[Random.Range(0,vertices.Length)],Random.Range(.125f,1f),Random.Range(-.25f,.25f));
+			heighten(vertices[Random.Range(0,vertices.Length)],Random.Range(.125f,1f),Random.Range(0f,.25f));
 		}
 	}
 
