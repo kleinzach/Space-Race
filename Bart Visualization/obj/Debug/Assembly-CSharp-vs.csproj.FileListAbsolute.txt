@@ -1,0 +1,13 @@
+C:\Users\henry_000\Documents\GitHub\Space-Race\Bart Visualization\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\henry_000\Documents\GitHub\Space-Race\Bart Visualization\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\henry_000\Documents\GitHub\Space-Race\Bart Visualization\Temp\bin\Debug\UnityEditor.dll
+C:\Users\henry_000\Documents\GitHub\Space-Race\Bart Visualization\Temp\bin\Debug\UnityEngine.dll
+C:\Users\henry_000\Documents\GitHub\Space-Race\Bart Visualization\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\henry_000\Documents\GitHub\Space-Race\Bart Visualization\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\henry_000\Documents\GitHub\Space-Race\Bart Visualization\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\henry_000\Documents\GitHub\Space-Race\Bart Visualization\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\henry_000\Documents\GitHub\Space-Race\Bart Visualization\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\henry_000\Documents\GitHub\Space-Race\Bart Visualization\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\henry_000\Documents\GitHub\Space-Race\Bart Visualization\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\henry_000\Documents\GitHub\Space-Race\Bart Visualization\obj\Debug\Assembly-CSharp.dll
+C:\Users\henry_000\Documents\GitHub\Space-Race\Bart Visualization\obj\Debug\Assembly-CSharp.pdb
